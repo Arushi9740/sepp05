@@ -1,4 +1,4 @@
-import sepp05.sepp01 as sepp01
+import sepp01 as sepp01
 
 assert sepp01.create_user("abc","abc@gmail.com","9036076747","Ma63621111ma") == "Account created successfully"
 assert sepp01.create_user("def","def@gmail.com","635412","abcdefgh586453") == "Invalid phone number"
